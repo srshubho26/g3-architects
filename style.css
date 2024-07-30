@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Shared Css */
+body{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    transition: .2s;
+}
+
+a:hover{
+    color: rgb(255, 144, 14);
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 1460px;
+    margin: auto;
+    padding: 0 10px;
+    max-width: 100%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-primary{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.btn-primary{
+    background: rgb(255, 144, 14);
+    padding: 15px 25px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.btn-primary:hover{
+    background: #4c4d00;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: rgb(19, 19, 19);
+}
+
+.secTitle{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p{
+    color: rgb(114, 114, 114);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.logo{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+header, section{
+    padding: 50px 0;
+}
+
+/* Header CSS */
+header .nav-toggler-btn, header #nav-toggler{
+    display: none;
+}
+
+header nav{
+    position: relative;
+}
+
+header nav ul{
+    gap: 40px;
+}
+
+header nav ul li a{
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* banner Css */
+.banner{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.banner .banner-txt{
+    width: 860px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.banner .banner-txt h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.banner .banner-txt p{
+    margin: 30px 0;
+}
+
+.banner .banner-img{
+    margin-top: 50px;
+}
+
+.banner .banner-img img{
+    width: 100%;
+}
+
+/* FeaturesList CSS */
+.featuresList{
+    width: 1320px;
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+.featuresList .feature-list-left{
+    flex-basis: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.featuresList .feature-list-left .feature-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.featuresList .feature-list-right{
+    flex-basis: 50%;
+    padding-left: 70px;
+}
+
+.featuresList .feature-list-right h2{
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.featuresList .feature-list-right h2 span:first-child{
+    color: rgb(114, 114, 114);
+    font-weight: 500;
+}
+
+.featuresList .feature-list-right h2 span:last-child{
+    color: rgb(255, 144, 14);
+}
+
+.featuresList .feature-list-right p{
+    margin: 25px 0;
+}
+
+/* Features CSS */
+.features{
+    gap: 10%;
+}
+
+.features .features-left{
+    flex-basis: 45%;
+}
+
+.features .features-left h2{
+    border-left: 5px  solid rgb(255, 144, 14);
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+
+.features .features-left .feature-box{
+    margin: 10px 0;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.features .features-left .feature-box h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.features .features-right{
+    flex-basis: 45%;
+    position: relative;
+}
+
+.features .features-right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.features .features-right .badge {
+    border-radius: 8px;
+    background: rgba(255, 143, 14, 0.833);
+    position: absolute;
+    width: 340px;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    bottom: -80px;
+    left: -80px;
+}
+
+.features .features-right .badge h2{
+    color: #fff;
+    font-size: 55px;
+}
+
+.features .features-right .badge p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* Facts CSS */
+.facts .fact-title{
+    width: 550px;
+    max-width: 100%;
+    margin: 80px 0;
+}
+
+.facts .facts-wrap{
+    justify-content: space-around;
+}
+
+.facts .single-fact{
+    flex-basis: 240px;
+    height: 240px;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.facts .single-fact h4{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.facts .single-fact h5{
+    font-size: 20px;
+    color: #727272;
+    font-weight: 600;
+}
+
+/* Sponsor CSS */
+.sponsors .sponsor-title{
+    width: 550px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.sponsors .sponsors-wrap{
+    gap: 5px;
+}
+
+.sponsors .sponsors-wrap .single-sponsor{
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.sponsors .sponsors-wrap .single-sponsor:hover{
+    filter: grayscale(0);
+}
+
+footer{
+    text-align: center;
+    padding: 30px 10px;
+}
+
+footer p{
+    font-weight: 500;
+}

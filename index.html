@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G3 Architects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <header class="bg-primary">
+        <nav class="flex container">
+            <h2 class="logo">G3 Architects</h2>
+
+            <button class="nav-toggler-btn">
+                <img src="imgs/icons/hamburger.png" alt="hamburger">
+            </button>
+            <input type="checkbox" id="nav-toggler">
+
+            <ul id="nav-elements-wrap" class="flex">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+
+        <div class="container banner">
+            <div class="banner-txt">
+                <h1>Brand New<br>Group of Architects</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                <a href="#" class="btn-primary">Explore More</a>
+            </div>
+
+            <div class="banner-img">
+                <img src="imgs/banner.png" alt="Banner">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="flex featuresList">
+            <div class="feature-list-left">
+                <div class="feature-img">
+                    <img src="imgs/team1.png">
+                </div>
+                <div class="feature-img">
+                    <img src="imgs/team2.png">
+                </div>
+                <div class="feature-img">
+                    <img src="imgs/team3.png">
+                </div>
+                <div class="feature-img">
+                    <img src="imgs/team4.png">
+                </div>
+            </div>
+
+            <div class="feature-list-right">
+                <h2><span>Quick list</span> of Our <br><span>Features</span></h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                <a href="#" class="btn-primary">Explore More</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="flex container">
+                <div class="features-left">
+                    <h2 class="logo">Features you will<br>love & enjoy</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+    
+                    <div class="feature-box">
+                        <h4>Dexktop & Mobile Version</h4>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
+                    </div>
+    
+                    <div class="feature-box">
+                        <h4>Drag & Drop Builder</h4>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
+                    </div>
+    
+                    <div class="feature-box">
+                        <h4>Awesome Modern Design</h4>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
+                    </div>
+    
+                    <div class="feature-box">
+                        <h4>Super Easy to Edit</h4>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
+                    </div>
+                </div>
+    
+                <div class="features-right">
+                    <img src="imgs/architect.png">
+                    <div class="flex badge">
+                        <h2>10+Years</h2>
+                        <p>Experience</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="facts">
+            <div class="container">
+                <div class="fact-title">
+                    <h3 class="secTitle">Some Facts</h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                </div>
+
+                <div class="flex facts-wrap">
+                    <div class="flex single-fact">
+                        <img src="imgs/icons/ribon.png">
+                        <h4 class="sr-count-up">54</h4>
+                        <h5>Awards Winnings</h5>
+                    </div>
+
+                    <div class="flex single-fact">
+                        <img src="imgs/icons/projects.png">
+                        <h4 class="sr-count-up">1458</h4>
+                        <h5>Projects Finished</h5>
+                    </div>
+
+                    <div class="flex single-fact">
+                        <img src="imgs/icons/customers.png">
+                        <h4 class="sr-count-up">590</h4>
+                        <h5>Clients Worked</h5>
+                    </div>
+
+                    <div class="flex single-fact">
+                        <img src="imgs/icons/email.png">
+                        <h4 class="sr-count-up">22578</h4>
+                        <h5>Email Sent</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sponsors">
+            <div class="container">
+                <div class="sponsor-title">
+                    <h3 class="secTitle">Our Sponsors</h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                </div>
+
+                <div class="flex sponsors-wrap">
+                    <img src="imgs/sponsors/spotify.png" alt="spotify" class="single-sponsor">
+                    <img src="imgs/sponsors/amazon.png" alt="amazon" class="single-sponsor">
+                    <img src="imgs/sponsors/google.png" alt="google" class="single-sponsor">
+                    <img src="imgs/sponsors/telerama.png" alt="telerama" class="single-sponsor">
+                    <img src="imgs/sponsors/figma.png" alt="figma" class="single-sponsor">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary">
+        <p>&copy;Copyright 2024 All rights reserved</p>
+    </footer>
+    <script src="vendors/sr-count-up.js"></script>
+    <script>
+        srCountUp();
+    </script>
+</body>
+</html>
