@@ -82,7 +82,7 @@
     .features .features-right .badge {
         width: 240px;
         height: 150px;
-        left: 0;
+        left: -5px;
         gap: 0;
     }
 
@@ -139,6 +139,7 @@
     .features .features-right{
         flex-basis: 100%;
         margin: 20px 0;
+        padding: 0;
     }
 
     .facts .facts-wrap{
