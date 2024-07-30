@@ -161,12 +161,12 @@
         margin-top: 50px;
     }
 
-    .features .feature-left {
-        gap: 5px;
-    }
-
     .banner .banner-txt h1 {
         font-size: 28px;
+    }
+
+    .featuresList .feature-list-left {
+        gap: 5px;
     }
 
     .featuresList .feature-list-right h2 {
