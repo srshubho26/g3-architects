@@ -105,7 +105,7 @@ header nav ul li a{
 
 /* banner Css */
 .banner{
-    margin-top: 80px;
+    margin-top: 25px;
     text-align: center;
 }
 
@@ -115,10 +115,10 @@ header nav ul li a{
     margin: auto;
 }
 
-.banner .banner-txt h1{
-    font-size: 64px;
+.banner .banner-txt h1 {
+    font-size: 56px;
     font-weight: 700;
-    line-height: 75px;
+    line-height: 60px;
 }
 
 .banner .banner-txt p{
@@ -126,7 +126,9 @@ header nav ul li a{
 }
 
 .banner .banner-img{
+    margin: 0 auto;
     margin-top: 50px;
+    max-width: 1024px;
 }
 
 .banner .banner-img img{
